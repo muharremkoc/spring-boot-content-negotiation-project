@@ -17,8 +17,7 @@ Content Negotiation,It is called the case of bringing requests to the Service in
 
 ## Important definitions
 
-
-![Dependency1](https://user-images.githubusercontent.com/80245013/137122297-9f3dc8b2-2743-40f0-ad9a-a4551826b544.png)    
+---
 
 ``` java 
   <dependency>
@@ -35,9 +34,7 @@ Content Negotiation,It is called the case of bringing requests to the Service in
   ```
 
 
-
-![Dependency2](https://user-images.githubusercontent.com/80245013/137122255-82859027-31d4-4a68-ab14-f98415abc1bd.png)
-
+---
 
 
 ``` java 
@@ -47,8 +44,7 @@ Content Negotiation,It is called the case of bringing requests to the Service in
         </dependency>
  ```
  
- 
- ![Dependency3](https://user-images.githubusercontent.com/80245013/137122176-cf495a29-7aee-4460-a122-eca3d12cebf5.png)
+ ---
 
        
 ``` java 
