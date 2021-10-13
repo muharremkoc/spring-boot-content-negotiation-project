@@ -18,23 +18,19 @@ Content Negotiation,It is called the case of bringing requests to the Service in
 ## Important definitions
 
 
-![Dependency1](https://user-images.githubusercontent.com/80245013/137122297-9f3dc8b2-2743-40f0-ad9a-a4551826b544.png)
-
-
-
-``` java 
- <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
-            <version>${springdoc.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring-webmvc</artifactId>
-                </exclusion>
-            </exclusions>
-     </dependency>
-```
+![Dependency1](https://user-images.githubusercontent.com/80245013/137122297-9f3dc8b2-2743-40f0-ad9a-a4551826b544.png)    ``` java 
+                                                                                                                            <dependency>
+                                                                                                                             <groupId>org.springdoc</groupId>
+                                                                                                                             <artifactId>springdoc-openapi-ui</artifactId>
+                                                                                                                             <version>${springdoc.version}</version>
+                                                                                                                             <exclusions>
+                                                                                                                                 <exclusion>
+                                                                                                                                     <groupId>org.springframework</groupId>
+                                                                                                                                     <artifactId>spring-webmvc</artifactId>
+                                                                                                                                 </exclusion>
+                                                                                                                             </exclusions>
+                                                                                                                        </dependency>
+                                                                                                                 ```
 
 
 
