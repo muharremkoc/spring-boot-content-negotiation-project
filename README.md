@@ -1,1 +1,1 @@
-# spring-boot-content-negoration-project
+# spring-boot-content-negotiation-project
