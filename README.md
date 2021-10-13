@@ -17,10 +17,12 @@ Content Negotiation,It is called the case of bringing requests to the Service in
 
 ## Important definitions
 
+
+![Dependency1](https://user-images.githubusercontent.com/80245013/137122297-9f3dc8b2-2743-40f0-ad9a-a4551826b544.png)
+
+
+
 ``` java 
-![image](https://user-images.githubusercontent.com/80245013/137121602-1d717609-086d-4c15-bf6e-b109b436ae2e.png)
-
-
  <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
@@ -32,30 +34,32 @@ Content Negotiation,It is called the case of bringing requests to the Service in
                 </exclusion>
             </exclusions>
      </dependency>
+```
 
 
 
-![image](https://user-images.githubusercontent.com/80245013/137121679-95fcb36d-d42b-4d99-a3b1-5441b605fe65.png)
+![Dependency2](https://user-images.githubusercontent.com/80245013/137122255-82859027-31d4-4a68-ab14-f98415abc1bd.png)
 
 
 
+``` java 
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>
         </dependency>
-       
-       
-       ![image](https://user-images.githubusercontent.com/80245013/137121733-21695bd3-8fa4-4670-a50d-648afc4d05bf.png)
+ ```
+ 
+ 
+ ![Dependency3](https://user-images.githubusercontent.com/80245013/137122176-cf495a29-7aee-4460-a122-eca3d12cebf5.png)
 
-
+       
+``` java 
  <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-yaml</artifactId>
   </dependency>
-
-
 ```
-
+  
 
 ## License
 [Muharrem Koç](https://github.com/muharremkoc)
